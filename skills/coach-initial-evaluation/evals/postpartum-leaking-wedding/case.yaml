@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: postpartum-leaking-wedding
+expected_outcome: |
+  Five-section prep that treats postpartum context carefully: belly is not just fat, leaking → pelvic-health physio and no impact until assessed, ask about doming/C-section recovery, breastfeeding → no aggressive deficit, rejects 100 crunches and belly belt as fat-loss tools, realistic 10-week expectations, sensitive mood check, haemoglobin follow-up with her doctor.
+context:
+  scaffold_script: place-files.sh

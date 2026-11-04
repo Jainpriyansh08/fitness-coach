@@ -1,0 +1,754 @@
+{
+  "meta": {
+    "client_name": "Sample Client",
+    "plan_title": "12-Week Strength & Energy Plan",
+    "subtitle": "Stronger, steadier blood sugar and more energy — built around a desk job, home workouts and two gym days a week. FICTIONAL EXAMPLE used to test the workbook builder.",
+    "start_date": "2026-11-09",
+    "weeks": 12,
+    "target_date": "2027-01-31",
+    "starting_weight": 72.4,
+    "units": {
+      "weight": "kg",
+      "length": "cm"
+    },
+    "version": "1.0",
+    "first_week_number": 1
+  },
+  "overview": {
+    "schedule_mode": "weekday",
+    "schedule_title": "Your week — how it builds up",
+    "phase_columns": ["Weeks 1–2", "Weeks 3–8", "Weeks 9–12"],
+    "schedule": [
+      {
+        "day": "Monday",
+        "session": "Full body A (home)",
+        "tab": "Mon - Full Body A",
+        "time": "35–40 min",
+        "phases": {
+          "Weeks 1–2": "Core",
+          "Weeks 3–8": "Core",
+          "Weeks 9–12": "Core"
+        }
+      },
+      {
+        "day": "Tuesday",
+        "session": "Walk + mobility",
+        "tab": "Mobility",
+        "time": "20 min + walk",
+        "phases": {
+          "Weeks 1–2": "Recommended",
+          "Weeks 3–8": "Recommended",
+          "Weeks 9–12": "Recommended"
+        }
+      },
+      {
+        "day": "Wednesday",
+        "session": "Full body B (gym)",
+        "tab": "Wed - Full Body B",
+        "time": "40–45 min",
+        "phases": {
+          "Weeks 1–2": "Core",
+          "Weeks 3–8": "Core",
+          "Weeks 9–12": "Core"
+        }
+      },
+      {
+        "day": "Thursday",
+        "session": "Walk + mobility",
+        "tab": "Mobility",
+        "time": "20 min + walk",
+        "phases": {
+          "Weeks 1–2": "Optional",
+          "Weeks 3–8": "Recommended",
+          "Weeks 9–12": "Recommended"
+        }
+      },
+      {
+        "day": "Friday",
+        "session": "Full body A (home)",
+        "tab": "Mon - Full Body A",
+        "time": "35–40 min",
+        "phases": {
+          "Weeks 1–2": "—",
+          "Weeks 3–8": "Core",
+          "Weeks 9–12": "Core"
+        }
+      },
+      {
+        "day": "Saturday",
+        "session": "Full body B (gym) or Busy Day",
+        "tab": "Wed - Full Body B",
+        "time": "30–45 min",
+        "phases": {
+          "Weeks 1–2": "Optional",
+          "Weeks 3–8": "Optional",
+          "Weeks 9–12": "Core"
+        }
+      },
+      {
+        "day": "Sunday",
+        "session": "Rest + weekly check-in",
+        "tab": "Weekly Check-in",
+        "time": "10 min",
+        "phases": {
+          "Weeks 1–2": "Log",
+          "Weeks 3–8": "Log",
+          "Weeks 9–12": "Log"
+        }
+      }
+    ],
+    "schedule_note": "Busy week? Two Busy Day sessions plus your walks still count as a good week. Days can move — just avoid hard sessions on back-to-back days.",
+    "priorities": [
+      "1. Do your 2–3 strength sessions — on busy days, the 15-minute Busy Day version counts.",
+      "2. Walk 10–15 minutes after your two biggest meals.",
+      "3. A protein food at every meal (egg, dal, paneer, curd, chana, sprouts).",
+      "4. Fill the Daily Check-in each evening — rough is fine."
+    ],
+    "expectations": [
+      "Stronger: more reps or harder versions of squats, push-ups and rows by week 4.",
+      "Weight usually trends down 0.25–0.5 kg a week on average, with ups and downs day to day. We judge the weekly average plus waist, not one weigh-in.",
+      "Exercise can't burn fat from one spot. Overall strength training, steps and food habits change body shape over time."
+    ],
+    "listen_to_body": [
+      "Mild muscle soreness for 1–2 days is normal. Sharp pain or pain that changes how you move is not — stop that exercise and tell your coach.",
+      "Shaky, sweaty or light-headed during training → stop, sit, have a small snack, and tell your coach.",
+      "Stop and get medical help for chest pain or pressure, fainting, unusual breathlessness or a sudden severe headache."
+    ],
+    "equipment": "Home: two 5 kg dumbbells, a sturdy chair, a yoga mat. Gym (Wed/Sat): standard machines and dumbbells."
+  },
+  "sessions": [
+    {
+      "tab": "Mon - Full Body A",
+      "title": "Full Body A — Home",
+      "subtitle": "Squat, push, pull, hinge and core with two 5 kg dumbbells and a chair.",
+      "purpose": "Home full-body session (Mon, and Fri from week 3)",
+      "info": [
+        [
+          "Objective",
+          "Build leg, back and pushing strength with simple moves you can progress at home."
+        ],
+        ["Duration", "About 35–40 minutes including warm-up and cool-down."],
+        [
+          "Warm-up",
+          "March on the spot 2 min · arm circles ×10 each way · cat-cow ×6 · glute bridge ×8 · squat to chair ×6."
+        ],
+        [
+          "Effort",
+          "Stop each set with 2–3 good reps left (RPE about 7). Weeks 1–2: 3–4 reps left."
+        ],
+        [
+          "Cool-down",
+          "Child's pose 30 s · hip-flexor stretch 30 s each side · slow breathing 1 min."
+        ]
+      ],
+      "blocks": [
+        {
+          "label": "HOME VERSION  ·  two 5 kg dumbbells, chair, mat",
+          "style": "home",
+          "prescription_labels": ["Weeks 1–2", "Weeks 3–8", "Weeks 9–12"],
+          "exercises": [
+            {
+              "pattern": "Squat",
+              "name": "Squat to chair",
+              "cues": "Feet hip-width, sit back slowly until you touch the chair, stand tall. Knees follow toes.",
+              "prescription": ["2 × 10", "3 × 10–12", "3 × 12 goblet (5 kg)"],
+              "rest": "60–90 s",
+              "effort": "3–4 → 2–3 left",
+              "easier": "Higher chair",
+              "harder": "Goblet squat holding one dumbbell",
+              "if_bothers": "Higher seat, smaller range",
+              "video": "https://www.youtube.com/watch?v=GxT863X9A4Q"
+            },
+            {
+              "pattern": "Push",
+              "name": "Incline push-up (counter or sofa edge)",
+              "cues": "Hands on a sturdy edge, body straight head to heels, chest to the edge, push away.",
+              "prescription": ["2 × 8", "3 × 8–10", "3 × 10 (lower surface)"],
+              "rest": "60–90 s",
+              "effort": "3–4 → 2–3 left",
+              "easier": "Wall push-up",
+              "harder": "Lower surface, then knee push-ups",
+              "if_bothers": "Hands slightly wider; stop if a shoulder pinches",
+              "video": "https://www.youtube.com/watch?v=bryx8_nnGj8"
+            },
+            {
+              "pattern": "Pull",
+              "name": "One-arm dumbbell row",
+              "cues": "Hand and knee on a chair, pull the dumbbell to your hip, elbow close, lower slowly.",
+              "prescription": ["2 × 10 each", "3 × 10–12 each", "3 × 12 each, 2-s pause"],
+              "rest": "60 s",
+              "effort": "3–4 → 2–3 left",
+              "easier": "Both feet on floor, hand on chair",
+              "harder": "3-second lowering",
+              "if_bothers": "Smaller range",
+              "video": "https://www.youtube.com/watch?v=S_kOe9mOLlg"
+            },
+            {
+              "pattern": "Hinge",
+              "name": "Dumbbell Romanian deadlift",
+              "cues": "Soft knees, push hips back with a flat back, dumbbells slide down the thighs, stand tall squeezing glutes.",
+              "prescription": ["2 × 10", "3 × 10–12", "3 × 12, 3-s lowering"],
+              "rest": "60–90 s",
+              "effort": "3–4 → 2–3 left",
+              "easier": "Glute bridge instead",
+              "harder": "Single-leg version holding a chair",
+              "if_bothers": "Shorter range; skip if lower back complains"
+            },
+            {
+              "pattern": "Core",
+              "name": "Dead bug",
+              "cues": "On your back, knees over hips, lower back gently on the floor. Lower opposite arm and leg slowly, switch.",
+              "prescription": ["2 × 6 each", "3 × 8 each", "3 × 10 each"],
+              "rest": "45 s",
+              "effort": "Slow and controlled",
+              "easier": "Move only the legs",
+              "harder": "Straighter leg, slower",
+              "if_bothers": "Smaller range if your back arches",
+              "video": "https://www.youtube.com/watch?v=bxn9FBrt4-A"
+            }
+          ]
+        }
+      ],
+      "footer": "Tick the session on your Daily Check-in."
+    },
+    {
+      "tab": "Wed - Full Body B",
+      "title": "Full Body B — Gym",
+      "subtitle": "Machines and dumbbells: same movement patterns, a little more load.",
+      "info": [
+        ["Duration", "40–45 minutes."],
+        [
+          "Effort",
+          "Stop each set with 2–3 good reps left. Increase weight only when all sets reach the top of the range."
+        ]
+      ],
+      "blocks": [
+        {
+          "label": "GYM VERSION  ·  machines and dumbbells",
+          "style": "gym",
+          "prescription_labels": ["Weeks 1–2", "Weeks 3–8", "Weeks 9–12"],
+          "exercises": [
+            {
+              "pattern": "Squat",
+              "name": "Box squat",
+              "cues": "Sit back to a box, stand tall pushing through the whole foot.",
+              "prescription": ["2 × 10", "3 × 8–12", "3 × 8–10 goblet"],
+              "rest": "90 s",
+              "effort": "2–3 left",
+              "easier": "Higher box",
+              "harder": "Goblet squat 8–12 kg",
+              "if_bothers": "Higher box, smaller range",
+              "video": "https://www.youtube.com/watch?v=AVOS2JYsgrs"
+            },
+            {
+              "pattern": "Pull",
+              "name": "Lat pulldown",
+              "cues": "Sit tall, pull the bar to your upper chest, shoulders down.",
+              "prescription": ["2 × 10", "3 × 10–12", "3 × 8–10"],
+              "rest": "60–90 s",
+              "effort": "2–3 left",
+              "easier": "Lighter, close grip",
+              "harder": "Small weight increase",
+              "if_bothers": "Never behind the neck",
+              "video": "https://www.youtube.com/watch?v=rpkWBC1gCcE"
+            },
+            {
+              "pattern": "Push",
+              "name": "Chest press machine",
+              "cues": "Handles at mid-chest, press forward, return slowly.",
+              "prescription": ["2 × 10", "3 × 10–12", "3 × 8–10"],
+              "rest": "60–90 s",
+              "effort": "2–3 left",
+              "easier": "Lighter",
+              "harder": "Small weight increase",
+              "if_bothers": "Narrower range",
+              "video": "https://www.youtube.com/watch?v=B-zyH8OTlsg"
+            },
+            {
+              "pattern": "Legs",
+              "name": "Seated leg curl machine",
+              "cues": "Pad above the heels, curl down slowly, control back up.",
+              "prescription": ["2 × 12", "3 × 10–12", "3 × 10–12"],
+              "rest": "60 s",
+              "effort": "2–3 left",
+              "easier": "Lighter",
+              "harder": "Slower lowering",
+              "if_bothers": "Lighter; stop if cramping",
+              "video": "https://www.youtube.com/watch?v=Z5pRnXaCjpM"
+            },
+            {
+              "pattern": "Carry",
+              "name": "Farmer carry",
+              "cues": "Hold a dumbbell in each hand, walk tall, shoulders down, slow steps.",
+              "prescription": ["2 × 30 s", "3 × 40 s", "3 × 45 s heavier"],
+              "rest": "60 s",
+              "effort": "Steady posture",
+              "easier": "Lighter",
+              "harder": "Heavier or one-sided",
+              "if_bothers": "Lighter load"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Mobility",
+      "kind": "mobility",
+      "title": "Mobility + Walk",
+      "subtitle": "Tuesday and Thursday: loosen hips, back and shoulders after desk hours, then walk.",
+      "info": [
+        [
+          "Duration",
+          "15–20 minutes on the mat, then a 20–30 minute walk — ideally after a meal."
+        ]
+      ],
+      "blocks": [
+        {
+          "label": "MAT ROUTINE",
+          "style": "neutral",
+          "prescription_labels": ["Weeks 1–4", "Weeks 5–12"],
+          "exercises": [
+            {
+              "name": "Cat-cow",
+              "cues": "On hands and knees, round then gently arch your back with your breath.",
+              "prescription": ["× 8", "× 10"],
+              "if_bothers": "Smaller movement",
+              "video": "https://www.youtube.com/watch?v=KT6Fk7FWYfM"
+            },
+            {
+              "name": "Thread the needle",
+              "cues": "Slide one arm under your body, turning the upper back. Return.",
+              "prescription": ["× 6 each", "× 8 each"],
+              "if_bothers": "Smaller turn",
+              "video": "https://www.youtube.com/watch?v=z9rHkuGNjWQ"
+            },
+            {
+              "name": "Child's pose",
+              "cues": "Sit back towards your heels, arms forward, relax.",
+              "prescription": ["45 s", "60 s"],
+              "if_bothers": "Pillow under hips",
+              "video": "https://www.youtube.com/watch?v=ESy8ujdrZrk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Busy Day",
+      "kind": "busy",
+      "title": "Busy Day — 15 Minutes",
+      "subtitle": "When a full session won't fit. It counts.",
+      "info": [
+        ["How", "2-minute march, then the 4 moves back to back. Rest 60 s. 2–3 rounds."]
+      ],
+      "blocks": [
+        {
+          "label": "CIRCUIT",
+          "style": "neutral",
+          "prescription_labels": ["Reps"],
+          "exercises": [
+            {
+              "name": "Squat to chair",
+              "prescription": ["× 12"],
+              "cues": "Slow on the way down",
+              "video": "https://www.youtube.com/watch?v=GxT863X9A4Q"
+            },
+            {
+              "name": "Incline push-up",
+              "prescription": ["× 10"],
+              "cues": "Body straight",
+              "video": "https://www.youtube.com/watch?v=LkjSCxoyD2Y"
+            },
+            {
+              "name": "Glute bridge",
+              "prescription": ["× 15"],
+              "cues": "Squeeze at the top",
+              "video": "https://www.youtube.com/watch?v=n6JiF2jp2Ns"
+            },
+            {
+              "name": "Bird dog",
+              "prescription": ["× 6 each side"],
+              "cues": "Back still like a table",
+              "video": "https://www.youtube.com/watch?v=Y_NGGmPH8zA"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "progression": {
+    "title": "Progression — weeks 1 to 12",
+    "subtitle": "Main exercises stay the same so progress is visible. They get harder one small step at a time.",
+    "phases": [
+      {
+        "name": "Phase 1 — Foundation",
+        "start_week": 1,
+        "end_week": 2,
+        "sessions": "2 strength + 2 mobility/walk",
+        "aim": "Learn the moves, build the routine",
+        "sets_effort": "2 sets · 3–4 reps left"
+      },
+      {
+        "name": "Phase 2 — Build",
+        "start_week": 3,
+        "end_week": 8,
+        "sessions": "3 strength + 2 mobility/walk",
+        "aim": "More reps, then harder versions",
+        "sets_effort": "3 sets · 2–3 reps left"
+      },
+      {
+        "name": "Phase 3 — Strength",
+        "start_week": 9,
+        "end_week": 12,
+        "sessions": "3–4 strength + walks",
+        "aim": "Progress load on the main lifts",
+        "sets_effort": "3 sets · 1–3 reps left on main lifts"
+      }
+    ],
+    "sections": [
+      {
+        "title": "How an exercise gets harder — double progression",
+        "bullets": [
+          "1. Each exercise has a rep range, e.g. 8–12. Start at the bottom.",
+          "2. Add reps until ALL sets reach the top of the range with good form and 2–3 reps left.",
+          "3. Do that in two sessions in a row → move up one step (a bit more weight or the next harder version). Reps drop back to the bottom of the range.",
+          "4. Bad week or symptoms? Stay where you are, or step back. That's normal progress."
+        ]
+      },
+      {
+        "title": "Ready to progress? All must be true",
+        "table": {
+          "headers": ["Check", "What it means"],
+          "rows": [
+            ["Technique", "Every rep looks controlled"],
+            ["Reps", "All sets reach the top of the range"],
+            ["Effort", "2–3 good reps left at the end of each set"],
+            ["Symptoms", "No new or increased pain"],
+            ["Recovery", "Back to normal by the next day or two"]
+          ]
+        }
+      },
+      {
+        "title": "Lighter weeks",
+        "bullets": [
+          "Take a lighter week (one set fewer, same exercises) after illness, poor sleep for several days, travel, or if everything feels heavy."
+        ]
+      }
+    ]
+  },
+  "nutrition": {
+    "title": "Nutrition — your usual food, a little more protein",
+    "subtitle": "Built on home-cooked meals. No food bans. Numbers are estimates — recipes and portions change them.",
+    "targets": [
+      {
+        "what": "Protein",
+        "target": "About 90 g a day",
+        "low": 85,
+        "high": 110,
+        "why": "Keeps you full and protects muscle while losing fat (about 1.25 g per kg). The sample week below averages about this."
+      },
+      {
+        "what": "Calories (optional)",
+        "target": "1,550–1,750 kcal",
+        "low": 1550,
+        "high": 1750,
+        "why": "A gentle deficit from your estimated maintenance. Only if you choose to track — the plate guide works without counting."
+      },
+      {
+        "what": "Vegetables",
+        "target": "Half your plate at lunch and dinner",
+        "why": "Fibre and volume; eat them first, then roti/rice — helps after-meal blood sugar."
+      },
+      {
+        "what": "Water",
+        "target": "About 2.5–3 L",
+        "low": 2.5,
+        "high": 3,
+        "why": "More on training and hot days. Pale-yellow urine is a good sign."
+      }
+    ],
+    "guides": [
+      [
+        "Plate guide",
+        "½ plate vegetables · ¼ plate protein (dal, rajma, chole, egg, paneer, curd) · ¼ plate rice or roti (about 1 cup cooked rice or 2 medium roti)."
+      ],
+      [
+        "Portion guide",
+        "1 katori ≈ 150 ml · 1 cup cooked rice ≈ 150 g · 1 tsp oil/ghee ≈ 45 kcal · 1 tbsp ≈ 120 kcal."
+      ],
+      [
+        "Thyroid medicine",
+        "Take it exactly as your doctor prescribed. Ask your doctor or pharmacist how far apart to keep it from tea/coffee, food and any calcium or iron supplement."
+      ]
+    ],
+    "menu": {
+      "title": "Sample week — approximate protein in grams",
+      "slots": ["Breakfast", "Lunch", "Dinner", "Snack"],
+      "days": [
+        {
+          "day": "Day 1",
+          "breakfast": ["Veg poha + 2 boiled eggs + 1 katori curd", 22],
+          "lunch": [
+            "2 roti + 1½ katori thick dal + sabzi + 1 katori curd + 1 boiled egg",
+            30
+          ],
+          "dinner": ["Paneer bhurji (100 g paneer) + 2 roti + salad", 25],
+          "snack": ["Roasted chana (30 g) + 1 glass milk", 13],
+          "swaps": "Poha ↔ upma · paneer ↔ 3 eggs"
+        },
+        {
+          "day": "Day 2",
+          "breakfast": ["2 moong chilla + 100 g hung curd", 22],
+          "lunch": [
+            "1 cup rice + 1½ katori rajma + sabzi + 1 katori curd + 50 g paneer tikka",
+            32
+          ],
+          "dinner": ["3-egg bhurji + 2 roti + sabzi", 26],
+          "snack": ["Soya chunk chaat (30 g dry) + buttermilk", 18],
+          "swaps": "Rajma ↔ chole · soya ↔ sprouts"
+        },
+        {
+          "day": "Day 3",
+          "breakfast": ["3 idli + sambar + 2 boiled eggs", 22],
+          "lunch": ["2 roti + 1 katori chole + salad + 1 katori curd + 50 g paneer", 29],
+          "dinner": ["Moong dal khichdi (1½ cup) + 1 katori curd + 2-egg omelette", 27],
+          "snack": ["Roasted chana (30 g) + 1 glass milk", 13],
+          "swaps": "Idli ↔ dosa"
+        }
+      ],
+      "note": "Rotate freely. Days land within about 10 g of each other — that's fine. Protein values are estimates."
+    },
+    "swaps": [
+      {
+        "food": "Eggs",
+        "portion": "2 whole",
+        "protein": 12,
+        "kcal": 140,
+        "swap": "75 g paneer"
+      },
+      {
+        "food": "Paneer",
+        "portion": "75 g",
+        "protein": 13,
+        "kcal": 210,
+        "swap": "2 eggs + 1 katori curd"
+      },
+      {
+        "food": "Dal (thick)",
+        "portion": "1 katori",
+        "protein": "7–9",
+        "kcal": "120–150",
+        "swap": "1 katori rajma/chole"
+      },
+      {
+        "food": "Curd",
+        "portion": "1 katori (150 g)",
+        "protein": 5,
+        "kcal": 90,
+        "swap": "Buttermilk + chana"
+      },
+      {
+        "food": "Roasted chana",
+        "portion": "30 g",
+        "protein": 6,
+        "kcal": 110,
+        "swap": "1 cup sprouts"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Keep it flexible",
+        "bullets": [
+          "No food is banned. Sweets and snacks can fit — a planned portion, enjoyed.",
+          "Eating out: pick the protein dish first, enjoy the meal, and go back to normal at the next meal — no skipping to 'make up'.",
+          "Walk 10–15 minutes after your two biggest meals."
+        ]
+      }
+    ]
+  },
+  "supplements": {
+    "intro": [
+      "Food first: most of your needs are covered by the meals above.",
+      "Everything below is optional and was chosen for your profile. Start one thing at a time so we can tell what helps."
+    ],
+    "items": [
+      {
+        "name": "Methi (fenugreek) seed water",
+        "type": "Home remedy",
+        "why_for_you": "Your HbA1c was in the prediabetes range. Fenugreek has modest evidence for lowering blood sugar.",
+        "evidence": "Moderate",
+        "how": "1 tsp seeds soaked overnight in a glass of water; drink in the morning (seeds can be chewed). Keep it at least an hour away from your thyroid tablet unless your doctor says otherwise.",
+        "cautions": "Can add to the effect of blood-sugar medicines (risk of going too low). Avoid in pregnancy. Can cause gas or loose stools. Allergy possible if allergic to peanuts/chickpeas. Check with your doctor if you take blood thinners.",
+        "alternative": "10–15 min walk after meals (stronger evidence for after-meal blood sugar)",
+        "status": "Coach-approved, optional"
+      },
+      {
+        "name": "Vitamin D3",
+        "type": "Supplement",
+        "why_for_you": "Low vitamin D is common in India, especially with indoor work.",
+        "evidence": "Strong (only if deficient)",
+        "how": "Only after a blood test or your doctor's advice; dose depends on the result.",
+        "cautions": "Don't self-dose high amounts. Check with your doctor if you have kidney stones or kidney disease.",
+        "alternative": "Test first; morning sunlight on arms and face",
+        "status": "Discuss with doctor"
+      }
+    ],
+    "not_recommended": [
+      {
+        "name": "Apple cider vinegar shots",
+        "why": "Small effect on after-meal blood sugar at best; can worsen acidity and wear tooth enamel. The after-meal walk does the same job better for you."
+      }
+    ]
+  },
+  "lifestyle": {
+    "habits": [
+      {
+        "habit": "1. Walk after meals",
+        "what": "10–15 minutes after lunch and dinner",
+        "why": "Lowers after-meal blood sugar and adds steps"
+      },
+      {
+        "habit": "2. Protein at every meal",
+        "what": "Egg, dal, paneer, curd, chana or sprouts with each meal",
+        "why": "Fuller for longer; supports strength"
+      },
+      {
+        "habit": "3. Wind-down by 11 pm",
+        "what": "Screens away 30 min before bed, same wake time daily",
+        "why": "Short sleep makes hunger and cravings louder"
+      }
+    ],
+    "recovery": [
+      [
+        "Sleep",
+        "Aim for 7–8 hours. Log your hours for 2–3 weeks before we change anything."
+      ],
+      ["Caffeine", "Last tea/coffee by about 2 pm if sleep is a problem."],
+      ["Rest days", "Gentle walking or stretching is fine; never required."]
+    ],
+    "sections": [
+      {
+        "title": "Busy or difficult week — the minimum plan",
+        "bullets": [
+          "Two Busy Day sessions + daily after-meal walks = a successful week.",
+          "Missed a day? Just do the next planned session — no doubling up."
+        ]
+      }
+    ]
+  },
+  "tracking": {
+    "daily_fields": [
+      "session_done",
+      "weight",
+      "steps",
+      "sleep_hours",
+      "nutrition",
+      "hydration",
+      "energy",
+      "off_plan",
+      "symptoms",
+      "notes"
+    ],
+    "sessions_planned": [3, 3, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6],
+    "checkin_day": "Sunday",
+    "measure_every_weeks": 2
+  },
+  "reviews": {
+    "every_weeks": 4
+  },
+  "changelog": [
+    {
+      "date": "2026-11-08",
+      "version": "1.0",
+      "change": "First plan",
+      "why": "After consultation",
+      "requested_by": "Coach"
+    }
+  ],
+  "coach_notes": {
+    "triage": {
+      "level": "B — coaching with precautions",
+      "why": "Hypothyroidism on medication (reported, stable); prediabetes-range HbA1c (reported). No exertional symptoms reported on screening.",
+      "deferred": "None"
+    },
+    "health": [
+      {
+        "area": "Hypothyroidism",
+        "known": "Reports levothyroxine; last TSH 'normal' per client, date not confirmed.",
+        "plan": "Train normally with gradual progression. Watch for unusual fatigue, palpitations or heat/cold intolerance.",
+        "review_if": "New palpitations, marked fatigue change, or dose change → GP/endocrinologist.",
+        "status": "Client-reported"
+      },
+      {
+        "area": "Prediabetes (HbA1c 6.0%)",
+        "known": "Report from 2026; no glucose-lowering medication.",
+        "plan": "Post-meal walks, fibre first, protein each meal, 3 strength sessions/week.",
+        "review_if": "Starts any glucose-lowering medicine → review remedies and hypo signs.",
+        "status": "Client-reported"
+      }
+    ],
+    "guidance": [
+      [
+        "Why this split",
+        "Full-body 2→3×/week gives each muscle ~2–3 exposures a week with minimal time; fits home + 2 gym days."
+      ],
+      [
+        "Why flexible nutrition",
+        "Client chose 'flexible guidance' on intake; plate guide + protein anchor before any counting."
+      ]
+    ],
+    "energy": {
+      "sex": "female",
+      "weight_kg": 72.4,
+      "height_cm": 160,
+      "age": 34,
+      "activity_low": 1.4,
+      "activity_high": 1.55,
+      "protein_g_per_kg": 1.25,
+      "deficit": 400
+    },
+    "to_confirm": [
+      "Date and value of last TSH test",
+      "Whether any doctor has advised activity limits"
+    ],
+    "adjust_if": [
+      [
+        "Attendance < 50% for 2 weeks",
+        "Ask what got in the way first; drop to the minimum week; shorter sessions"
+      ],
+      [
+        "Weekly average weight flat 3+ weeks with good adherence",
+        "Trim ~150 kcal (one roti or a little oil) or add steps — one change at a time"
+      ]
+    ]
+  },
+  "evidence": [
+    {
+      "topic": "Post-meal walking",
+      "recommendation": "10–15 min light walking after main meals",
+      "grade": "Moderate",
+      "source": "Buffey AJ et al., Sports Medicine, 2022 (systematic review & meta-analysis)",
+      "url": "https://doi.org/10.1007/s40279-022-01649-4",
+      "notes": "Light walking after meals lowered post-prandial glucose vs prolonged sitting."
+    },
+    {
+      "topic": "Protein target",
+      "recommendation": "1.3–1.6 g/kg/day",
+      "grade": "Strong",
+      "source": "Morton RW et al., British Journal of Sports Medicine, 2018 (meta-analysis)",
+      "url": "https://doi.org/10.1136/bjsports-2017-097608",
+      "notes": "Gains plateau around ~1.6 g/kg/day for resistance-trained adults."
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "Methi water",
+      "options": "Include as optional / leave out",
+      "chosen": "Include, optional, with medication caveat",
+      "why": "Moderate evidence for glucose; low risk for this client (no glucose-lowering medicines)",
+      "grade": "Moderate",
+      "approved": "Y",
+      "date": "2026-11-08"
+    }
+  ]
+}

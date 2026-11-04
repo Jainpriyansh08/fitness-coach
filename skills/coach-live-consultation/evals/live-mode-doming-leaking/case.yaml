@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: live-mode-doming-leaking
+expected_outcome: |
+  At most four lines (Insight, Ask next, Safety, Why); one question; safety: hold running/jumping until pelvic-health physio assessment; no diagnosis stated; no research or plan.

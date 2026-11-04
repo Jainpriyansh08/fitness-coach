@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+# eval run results (large transcripts and generated workbooks) — the summary report lives in tests/
+*-workspace/
+# never commit real client files
+/clients/
+*.client.xlsx

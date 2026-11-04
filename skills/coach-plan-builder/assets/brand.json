@@ -1,0 +1,20 @@
+{
+  "_comment": "Fill these in once. They appear on every client workbook. Leave a field empty to hide it. logo_path is relative to this file (e.g. 'logo.png' placed in this assets folder).",
+  "coach_name": "",
+  "business_name": "",
+  "tagline": "",
+  "contact": {
+    "whatsapp": "",
+    "email": "",
+    "instagram": ""
+  },
+  "checkin_instructions": [
+    "Fill in the Daily Check-in each evening — it takes 2 minutes and rough numbers are fine.",
+    "Every Sunday, answer the yellow questions on the Weekly Check-in and message your coach when it's done.",
+    "Your coach replies in the grey columns (and, when useful, with a short video or voice note) within 48 hours.",
+    "New pain, illness, a new medicine or a doctor's advice? Message your coach straight away — don't wait for the weekly check-in."
+  ],
+  "logo_path": "",
+  "font": "Arial",
+  "colors": {}
+}

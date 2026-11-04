@@ -1,0 +1,39 @@
+{
+  "main": "fitness-lifestyle-coach",
+  "snippets": {
+    "ground-rules": "tools/snippets/ground-rules.md",
+    "decision-brief": "tools/snippets/decision-brief.md"
+  },
+  "phase_skills": {
+    "coach-initial-evaluation": {
+      "references": ["consult-prep.md", "safety-screening.md", "research-protocol.md", "conditions-primer.md", "remedies-supplements.md"],
+      "scripts": [],
+      "assets": ["client-intake-form-v2.md", "coach-preferences.md"]
+    },
+    "coach-live-consultation": {
+      "references": ["consult-prep.md", "safety-screening.md", "conditions-primer.md"],
+      "scripts": [],
+      "assets": ["coach-preferences.md"]
+    },
+    "coach-plan-builder": {
+      "references": ["training-design.md", "nutrition-design.md", "remedies-supplements.md", "safety-screening.md", "conditions-primer.md", "research-protocol.md", "workbook-spec.md", "exercise-library.md"],
+      "scripts": ["build_workbook.py", "check_workbook.py", "read_workbook.py"],
+      "assets": ["brand.json", "coach-preferences.md", "example-plan.json", "example-plan-structured.json"]
+    },
+    "coach-checkin-review": {
+      "references": ["followup-and-checkins.md", "safety-screening.md", "training-design.md", "nutrition-design.md", "remedies-supplements.md"],
+      "scripts": ["read_workbook.py"],
+      "assets": ["coach-preferences.md"]
+    },
+    "coach-client-questions": {
+      "references": ["remedies-supplements.md", "research-protocol.md", "safety-screening.md", "conditions-primer.md", "followup-and-checkins.md", "nutrition-design.md", "training-design.md"],
+      "scripts": ["read_workbook.py"],
+      "assets": ["coach-preferences.md"]
+    },
+    "coach-plan-update": {
+      "references": ["followup-and-checkins.md", "safety-screening.md", "conditions-primer.md", "research-protocol.md", "remedies-supplements.md", "training-design.md", "nutrition-design.md", "workbook-spec.md", "exercise-library.md"],
+      "scripts": ["build_workbook.py", "check_workbook.py", "read_workbook.py"],
+      "assets": ["brand.json", "coach-preferences.md", "example-plan.json", "example-plan-structured.json"]
+    }
+  }
+}

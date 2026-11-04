@@ -1,0 +1,602 @@
+{
+  "meta": {
+    "client_name": "Sample Client B",
+    "plan_title": "2-Week Home Kickstart",
+    "subtitle": "FICTIONAL EXAMPLE — a short day-by-day plan with a structured (gram-level) meal plan for training and rest days.",
+    "start_date": "2026-11-16",
+    "days": 14,
+    "starting_weight": 81.0,
+    "units": {
+      "weight": "kg",
+      "length": "cm"
+    },
+    "version": "1.0"
+  },
+  "overview": {
+    "schedule_mode": "day_number",
+    "schedule_title": "Your 14 days — something every day",
+    "phase_columns": ["Week"],
+    "schedule": [
+      {
+        "day": "Day 1",
+        "session": "Workout A — full body",
+        "tab": "Workout A",
+        "time": "35–40 min",
+        "phases": {
+          "Week": "1"
+        }
+      },
+      {
+        "day": "Day 2",
+        "session": "Mobility + walk",
+        "tab": "Mobility",
+        "time": "20 min + walk",
+        "phases": {
+          "Week": "1"
+        }
+      },
+      {
+        "day": "Day 3",
+        "session": "Workout A — full body",
+        "tab": "Workout A",
+        "time": "35–40 min",
+        "phases": {
+          "Week": "1"
+        }
+      },
+      {
+        "day": "Day 4",
+        "session": "Mobility + walk",
+        "tab": "Mobility",
+        "time": "20 min + walk",
+        "phases": {
+          "Week": "1"
+        }
+      },
+      {
+        "day": "Day 5",
+        "session": "Workout A — full body",
+        "tab": "Workout A",
+        "time": "35–40 min",
+        "phases": {
+          "Week": "1"
+        }
+      },
+      {
+        "day": "Day 6",
+        "session": "Long walk",
+        "tab": "—",
+        "time": "40 min",
+        "phases": {
+          "Week": "1"
+        }
+      },
+      {
+        "day": "Day 7",
+        "session": "Rest + weekly check-in",
+        "tab": "Check-in Tracker",
+        "time": "10 min",
+        "phases": {
+          "Week": "1"
+        }
+      },
+      {
+        "day": "Day 8",
+        "session": "Workout A — full body",
+        "tab": "Workout A",
+        "time": "35–40 min",
+        "phases": {
+          "Week": "2"
+        }
+      },
+      {
+        "day": "Day 9",
+        "session": "Mobility + walk",
+        "tab": "Mobility",
+        "time": "20 min + walk",
+        "phases": {
+          "Week": "2"
+        }
+      },
+      {
+        "day": "Day 10",
+        "session": "Workout A — full body",
+        "tab": "Workout A",
+        "time": "35–40 min",
+        "phases": {
+          "Week": "2"
+        }
+      },
+      {
+        "day": "Day 11",
+        "session": "Mobility + walk",
+        "tab": "Mobility",
+        "time": "20 min + walk",
+        "phases": {
+          "Week": "2"
+        }
+      },
+      {
+        "day": "Day 12",
+        "session": "Workout A — full body",
+        "tab": "Workout A",
+        "time": "35–40 min",
+        "phases": {
+          "Week": "2"
+        }
+      },
+      {
+        "day": "Day 13",
+        "session": "Long walk",
+        "tab": "—",
+        "time": "40 min",
+        "phases": {
+          "Week": "2"
+        }
+      },
+      {
+        "day": "Day 14",
+        "session": "Rest + 2-week check-in",
+        "tab": "Check-in Tracker",
+        "time": "15 min",
+        "phases": {
+          "Week": "2"
+        }
+      }
+    ],
+    "priorities": [
+      "1. Move every day — workout, mobility or a walk.",
+      "2. Follow the meal plan on most days; use the alternatives freely.",
+      "3. Fill the Check-in Tracker each evening."
+    ],
+    "listen_to_body": [
+      "Stop and get medical help for chest pain or pressure, fainting, unusual breathlessness or a sudden severe headache."
+    ]
+  },
+  "sessions": [
+    {
+      "tab": "Workout A",
+      "title": "Workout A — Full Body (Home)",
+      "subtitle": "Days 1, 3, 5, 8, 10, 12.",
+      "info": [
+        ["Effort", "Stop each set with 2–3 good reps left."],
+        ["Warm-up", "2 min march · arm circles · cat-cow ×6 · 8 slow squats."]
+      ],
+      "blocks": [
+        {
+          "label": "HOME  ·  floor space, a chair, a towel and a door",
+          "style": "home",
+          "prescription_labels": ["Week 1", "Week 2"],
+          "exercises": [
+            {
+              "pattern": "Squat",
+              "name": "Bodyweight squat (slow lowering)",
+              "cues": "3 s down as low as comfortable, chest up, knees follow toes.",
+              "prescription": ["3 × 10", "3 × 12–15"],
+              "rest": "60 s",
+              "easier": "Squat to chair",
+              "harder": "2-s pause at the bottom",
+              "if_bothers": "Higher seat",
+              "video": "https://www.youtube.com/watch?v=DlS-GAF8Edg"
+            },
+            {
+              "pattern": "Push",
+              "name": "Incline push-up",
+              "cues": "Hands on a sturdy edge, body straight, chest to the edge, push away.",
+              "prescription": ["3 × 8", "3 × 10"],
+              "rest": "60–90 s",
+              "easier": "Higher surface",
+              "harder": "Lower surface",
+              "if_bothers": "Hands wider; stop if a shoulder pinches",
+              "video": "https://www.youtube.com/watch?v=LkjSCxoyD2Y"
+            },
+            {
+              "pattern": "Pull",
+              "name": "Towel door row",
+              "cues": "Stand on the side where the door opens away from you; lean back straight, pull chest to hands.",
+              "prescription": ["3 × 8", "3 × 10–12"],
+              "rest": "60–90 s",
+              "easier": "Stand more upright",
+              "harder": "Feet closer to the door",
+              "if_bothers": "Stop if the door shifts",
+              "video": "https://www.youtube.com/watch?v=HtTDy-2GNTE"
+            },
+            {
+              "pattern": "Hinge",
+              "name": "Glute bridge",
+              "cues": "Squeeze glutes, lift until shoulders–hips–knees line up, lower slowly.",
+              "prescription": ["3 × 12", "3 × 15 (2-s hold)"],
+              "rest": "45 s",
+              "easier": "Lift halfway",
+              "harder": "Single-leg",
+              "if_bothers": "Lift less high",
+              "video": "https://www.youtube.com/watch?v=n6JiF2jp2Ns"
+            },
+            {
+              "pattern": "Core",
+              "name": "Dead bug",
+              "cues": "Lower back gently down; lower opposite arm and leg slowly.",
+              "prescription": ["2 × 6 each", "3 × 8 each"],
+              "rest": "45 s",
+              "easier": "Legs only",
+              "harder": "Slower",
+              "if_bothers": "Smaller range",
+              "video": "https://www.youtube.com/watch?v=bxn9FBrt4-A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Mobility",
+      "kind": "mobility",
+      "title": "Mobility + Walk",
+      "blocks": [
+        {
+          "label": "MAT ROUTINE (15 min) then walk 20–30 min",
+          "style": "neutral",
+          "prescription_labels": ["Week 1", "Week 2"],
+          "exercises": [
+            {
+              "name": "Cat-cow",
+              "prescription": ["× 8", "× 10"],
+              "video": "https://www.youtube.com/watch?v=KT6Fk7FWYfM"
+            },
+            {
+              "name": "Thread the needle",
+              "prescription": ["× 6 each", "× 8 each"],
+              "video": "https://www.youtube.com/watch?v=z9rHkuGNjWQ"
+            },
+            {
+              "name": "Hip opener (half-kneeling hip flexor or figure-4)",
+              "prescription": ["30 s each", "45 s each"],
+              "video": "https://www.youtube.com/watch?v=F55tzqJggAY"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "nutrition": {
+    "title": "Nutrition — structured meal plan",
+    "subtitle": "Exact meals with an alternative for every item. Quantities are cooked weights unless stated. Numbers are estimates.",
+    "targets": [
+      {
+        "what": "Calories",
+        "target": "About 1,800–1,900 kcal (training day)",
+        "low": 1800,
+        "high": 1900,
+        "why": "Moderate deficit (~450 kcal) from estimated maintenance — see Coach Notes; reviewed at the 2-week check-in."
+      },
+      {
+        "what": "Protein",
+        "target": "About 110 g",
+        "low": 105,
+        "high": 125,
+        "why": "≈1.4 g per kg: protects muscle while losing fat; same on training and rest days, spread across 4 meals."
+      }
+    ],
+    "guides": [
+      [
+        "Oil",
+        "1 tsp per dish = 45 kcal. Measure it — it's the most common hidden calorie."
+      ]
+    ],
+    "meal_plans": [
+      {
+        "title": "Training day",
+        "style": "home",
+        "meals": [
+          {
+            "meal": "Meal 1",
+            "time": "8:00 am",
+            "items": [
+              {
+                "food": "Moong dal chilla (1 tsp oil)",
+                "qty": "2 medium (60 g dry dal)",
+                "protein": 14,
+                "carbs": 36,
+                "fat": 6,
+                "fibre": 5,
+                "kcal": 255,
+                "alternative": "2 besan chilla + 1 egg"
+              },
+              {
+                "food": "Boiled eggs",
+                "qty": "2 whole",
+                "protein": 12,
+                "carbs": 1,
+                "fat": 10,
+                "fibre": 0,
+                "kcal": 140,
+                "alternative": "75 g paneer"
+              },
+              {
+                "food": "Curd (toned)",
+                "qty": "1 katori (150 g)",
+                "protein": 5,
+                "carbs": 6,
+                "fat": 5,
+                "fibre": 0,
+                "kcal": 90,
+                "alternative": "1 glass buttermilk"
+              }
+            ]
+          },
+          {
+            "meal": "Meal 2",
+            "time": "1:00 pm",
+            "items": [
+              {
+                "food": "Roti",
+                "qty": "2 medium (60 g atta)",
+                "protein": 7,
+                "carbs": 38,
+                "fat": 1,
+                "fibre": 6,
+                "kcal": 200,
+                "alternative": "1 cup cooked rice"
+              },
+              {
+                "food": "Dal (1 tsp tadka)",
+                "qty": "1½ katori",
+                "protein": 10,
+                "carbs": 27,
+                "fat": 5,
+                "fibre": 5,
+                "kcal": 200,
+                "alternative": "1½ katori rajma/chole"
+              },
+              {
+                "food": "Mixed sabzi (1 tsp oil)",
+                "qty": "1 katori",
+                "protein": 3,
+                "carbs": 10,
+                "fat": 5,
+                "fibre": 4,
+                "kcal": 90,
+                "alternative": "Any seasonal sabzi"
+              },
+              {
+                "food": "Salad",
+                "qty": "1 plate",
+                "protein": 1,
+                "carbs": 5,
+                "fat": 0,
+                "fibre": 2,
+                "kcal": 25,
+                "alternative": "Cucumber raita"
+              }
+            ]
+          },
+          {
+            "meal": "Meal 3",
+            "time": "5:00 pm (pre-workout)",
+            "items": [
+              {
+                "food": "Banana",
+                "qty": "1 medium",
+                "protein": 1,
+                "carbs": 27,
+                "fat": 0,
+                "fibre": 3,
+                "kcal": 105,
+                "alternative": "2–3 dates"
+              },
+              {
+                "food": "Roasted chana",
+                "qty": "30 g",
+                "protein": 6,
+                "carbs": 17,
+                "fat": 2,
+                "fibre": 5,
+                "kcal": 110,
+                "alternative": "Sprouts chaat"
+              }
+            ]
+          },
+          {
+            "meal": "Meal 4",
+            "time": "8:30 pm (after training)",
+            "items": [
+              {
+                "food": "Paneer bhurji (1 tsp oil)",
+                "qty": "100 g paneer",
+                "protein": 19,
+                "carbs": 5,
+                "fat": 25,
+                "fibre": 1,
+                "kcal": 320,
+                "alternative": "3-egg bhurji"
+              },
+              {
+                "food": "Roti",
+                "qty": "2 medium",
+                "protein": 7,
+                "carbs": 38,
+                "fat": 1,
+                "fibre": 6,
+                "kcal": 200,
+                "alternative": "1 cup cooked rice"
+              },
+              {
+                "food": "Whey protein in water",
+                "qty": "1 scoop (30 g)",
+                "protein": 24,
+                "carbs": 3,
+                "fat": 2,
+                "fibre": 0,
+                "kcal": 120,
+                "alternative": "200 g hung curd",
+                "notes": "Optional if food protein is enough"
+              }
+            ]
+          }
+        ],
+        "note": "Totals are approximate. Swap any item with its alternative."
+      },
+      {
+        "title": "Rest day",
+        "style": "neutral",
+        "meals": [
+          {
+            "meal": "Meals 1–2",
+            "time": "As training day",
+            "items": [
+              {
+                "food": "Same as training day Meals 1 and 2",
+                "qty": "—",
+                "protein": 52,
+                "carbs": 123,
+                "fat": 32,
+                "fibre": 22,
+                "kcal": 1000,
+                "alternative": "—"
+              }
+            ]
+          },
+          {
+            "meal": "Meal 3",
+            "time": "5:00 pm",
+            "items": [
+              {
+                "food": "Buttermilk + roasted chana",
+                "qty": "1 glass + 30 g",
+                "protein": 8,
+                "carbs": 21,
+                "fat": 3,
+                "fibre": 5,
+                "kcal": 160,
+                "alternative": "Fruit + 10 almonds"
+              }
+            ]
+          },
+          {
+            "meal": "Meal 4",
+            "time": "8:00 pm",
+            "items": [
+              {
+                "food": "Paneer bhurji (1 tsp oil)",
+                "qty": "100 g paneer",
+                "protein": 19,
+                "carbs": 5,
+                "fat": 25,
+                "fibre": 1,
+                "kcal": 320,
+                "alternative": "3-egg bhurji"
+              },
+              {
+                "food": "Roti",
+                "qty": "1 medium",
+                "protein": 3.5,
+                "carbs": 19,
+                "fat": 0.5,
+                "fibre": 3,
+                "kcal": 100,
+                "alternative": "½ cup rice"
+              },
+              {
+                "food": "Sabzi + salad",
+                "qty": "1 katori + 1 plate",
+                "protein": 4,
+                "carbs": 15,
+                "fat": 5,
+                "fibre": 6,
+                "kcal": 115,
+                "alternative": "Clear soup"
+              },
+              {
+                "food": "Whey protein in water",
+                "qty": "1 scoop (30 g)",
+                "protein": 24,
+                "carbs": 3,
+                "fat": 2,
+                "fibre": 0,
+                "kcal": 120,
+                "alternative": "200 g hung curd"
+              }
+            ]
+          }
+        ],
+        "note": "Same protein as training days; fewer carbs (no pre-workout snack, one less roti at dinner)."
+      }
+    ]
+  },
+  "supplements": {
+    "items": [
+      {
+        "name": "Creatine monohydrate",
+        "type": "Supplement",
+        "why_for_you": "Supports strength gains with your new training.",
+        "evidence": "Strong",
+        "how": "3–5 g daily in water, any time.",
+        "cautions": "Expect 0.5–2 kg water weight early. Avoid with kidney disease unless your doctor agrees; tell your doctor before kidney blood tests.",
+        "alternative": "None needed — optional",
+        "status": "Optional"
+      }
+    ],
+    "not_recommended": [
+      {
+        "name": "Fat burners / thermogenics",
+        "why": "No meaningful fat-loss evidence; liver and heart side-effects reported."
+      }
+    ]
+  },
+  "tracking": {
+    "daily_fields": [
+      "session_done",
+      "weight",
+      "steps",
+      "sleep_hours",
+      "protein",
+      "calories",
+      "energy",
+      "off_plan",
+      "symptoms",
+      "notes"
+    ],
+    "sessions_planned": [6, 6],
+    "measure_every_weeks": 1,
+    "measurement_sites": [
+      {
+        "site": "Body weight (avg of 3 mornings)",
+        "unit": "kg",
+        "landmark": "Morning, after the bathroom"
+      },
+      {
+        "site": "Waist (at navel)",
+        "unit": "cm",
+        "landmark": "Level with the belly button"
+      }
+    ]
+  },
+  "reviews": {
+    "checkpoints": [2]
+  },
+  "changelog": [
+    {
+      "date": "2026-11-15",
+      "version": "1.0",
+      "change": "First plan",
+      "why": "Kickstart block",
+      "requested_by": "Coach"
+    }
+  ],
+  "coach_notes": {
+    "triage": {
+      "level": "A — ordinary coaching",
+      "why": "No conditions, symptoms or medicines reported (fictional).",
+      "deferred": "None"
+    },
+    "energy": {
+      "sex": "male",
+      "weight_kg": 81,
+      "height_cm": 175,
+      "age": 30,
+      "activity_low": 1.4,
+      "activity_high": 1.55,
+      "protein_g_per_kg": 1.5,
+      "deficit": 450
+    }
+  }
+}

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: next-block-replan
+expected_outcome: |
+  New v2 coach + client workbooks (formulas calculate) with first_week_number 13, start 2027-02-01, 8 weeks, starting weight 69.1; history carried; 4 strength days with deadlift progression; safety carried over; nutrition updated with protein ~85–120 g.
+context:
+  scaffold_script: place-files.sh

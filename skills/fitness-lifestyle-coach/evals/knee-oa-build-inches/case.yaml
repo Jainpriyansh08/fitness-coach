@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: knee-oa-build-inches
+expected_outcome: |
+  Coach + client workbooks (formulas calculate) defaulting to inches; knee-friendly training without running/jumping and with a pain rule; glucosamine not recommended with reason; ~400 kcal deficit only in coach notes; statin and winter AQI addressed; Sunday paratha kept, ghee reduced; protein ~100–130 g.
+context:
+  scaffold_script: place-files.sh

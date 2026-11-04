@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: honey-salt-acv-diabetes-bp
+expected_outcome: |
+  Two parts. Skip the salt (BP). Hypoglycaemia risk with glimepiride before early exercise, honey framed accordingly. ACV small effect + caution, not a treatment. Post-meal walks as stronger alternative. Reply ≤150 words. Coach note with grades and a real source.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: decision-brief-before-build
+expected_outcome: |
+  Shows a Plan Decision Brief and stops for approval (no workbook yet). Ashwagandha as a decision with thyroid and liver cautions; inositol limited evidence; coffee straight after levothyroxine flagged for doctor/pharmacist; 4-day structure with deadlift progression; structured nutrition with protein ~90–130 g.
+context:
+  scaffold_script: place-files.sh

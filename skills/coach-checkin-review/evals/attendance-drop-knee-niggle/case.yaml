@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: attendance-drop-knee-niggle
+expected_outcome: |
+  Correct trend summary (weeks 1–2 strong, week 3 drop linked to the audit); no calorie cut (weight flat, waist down 92 → 90.5); knee note handled by modification + monitoring + physio threshold; ≤2 changes; warm client reply acknowledging her walks; a short changes line.
+context:
+  scaffold_script: place-files.sh

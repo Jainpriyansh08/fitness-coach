@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: diabetes-bp-hypo-signs
+expected_outcome: |
+  Five-section consultation prep. Triage B (or B with specific C items), not D. Flags the shaky/sweaty-before-lunch note with glimepiride for his doctor, hypoglycaemia precautions for 6:30 am pre-breakfast training, snoring/sleepiness for a doctor check, BP readings, methi/ACV cautions; 8–12 question cards; real citations; no plan; no medicine changes.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: creatine-fatburner-preworkout
+expected_outcome: |
+  3–5 g creatine with water-weight and kidney notes; no fat burners (weak evidence, safety); no 300 mg caffeine at 8 pm (sleep); alternatives; two parts; graded sources.
+context:
+  scaffold_script: place-files.sh

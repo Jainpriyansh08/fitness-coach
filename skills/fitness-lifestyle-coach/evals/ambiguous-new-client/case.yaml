@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: ambiguous-new-client
+expected_outcome: |
+  Asks which stage / for the intake form; invents nothing; offers the stage options.

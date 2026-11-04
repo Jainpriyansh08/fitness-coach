@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: new-medicine-back-pain-swap
+expected_outcome: |
+  Re-triage for metformin (no dose advice); methi water item reviewed; exact change list for the RDL row on 'Mon - Full Body A' with replacement, cues, easier/harder; back pain modification + physio threshold; Change Log line; no regeneration of the live workbook; client message.
+context:
+  scaffold_script: place-files.sh
